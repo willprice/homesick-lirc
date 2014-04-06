@@ -1,0 +1,27 @@
+begin
+  prog = irexec
+  button = KEY_VOLUMEUP
+  config = pulsevolcontrol up
+  repeat = 1
+end
+
+begin
+  prog = irexec
+  button = KEY_VOLUMEDOWN
+  config = pulsevolcontrol down
+  repeat = 1
+end
+
+begin 
+  prog = irexec
+  button = KEY_PLAYPAUSE
+  config = mpc toggle
+  repeat = 0
+end
+
+begin 
+  prog = irexec
+  button = KEY_MENU
+  config = systemctl suspend
+  repeat = 0
+end
